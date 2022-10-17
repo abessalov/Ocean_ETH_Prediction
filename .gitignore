@@ -1,0 +1,4 @@
+_old
+_develop
+.ipynb_checkpoints/
+*__pycache__*
