@@ -19,7 +19,7 @@
 ## 3. Neural network training
 - We used the LSTM neural network with the following structure:
 
-![Screenshot](develop/pictures/lstm_16.PNG)
+![Screenshot](develop/pictures/lstm_16.png)
 - The last 20 days were used as validation set.
 - We used the batch_size = 512 for training, 30 epochs and 50 steps for epoch. The learning curve:
 
