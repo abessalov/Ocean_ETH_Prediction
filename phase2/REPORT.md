@@ -1,11 +1,10 @@
 # Report of ETH Prediction Round 2
 
----
 ## 1. Input data
 - We downloaded ETH/USD hourly prices data for the last 2 years from yfinance library.
 - There are small differences in ETH/USD and ETH/USDT prices in but they are so insignificant that we can neglect them:
 ![Screenshot](develop/pictures/data_example.PNG)
-- These data we will use to train neural network model.
+- This dataset we will use to train neural network model.
 
 
 ## 2. Data preprocessing for neural network training
@@ -37,4 +36,13 @@
 
 ![Screenshot](develop/pictures/final_predictions.PNG)
 
-- Let's check our predictions with the real values. The evaluation metrics of the final predictions (TODO!):
+- Let's compare our predictions with the real values:
+
+![Screenshot](develop/pictures/final_prediction_results.PNG)
+
+- The evaluation metrics of the final predictions:
+
+![Screenshot](develop/pictures/final_results.PNG)
+
+- It was the case when prophet model looks better then neural network predictions.
+
