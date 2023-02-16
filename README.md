@@ -1,25 +1,18 @@
-# Ocean Protocol :: ETH Prediction Challenge
+# Ocean Data Challenge :: ETH Prediction
 
 ## Files description
 
-- 1_get_predictions.ipynb - code for the ETH predictions generation. 
-- 2_upload_predictions1.py - code for publishing predictions online, to private url.
-- 2_upload_predictions2.py - code for sharing predictions actual, to judges via Polygon.
-- 3_models_testing.ipynb - code with evaluating of different algorithms.
-- Ocean_Presentation.pdf - final solution presentation.
-- startup.py - initial script executed in every notebook when started.
+- phase1 - folder with the Round 1 scripts
+- phase2 - folder with the Round 2 scripts
+- phase3 - folder with the Round 3 scripts
 
 ## Challenge
+
 Contestants are requested to submit the following:
-1. Csv with the  predictions for ETH price over a 24-hour period, with first prediction on  from Mon Oct 17, 2022 at 1:00am UTC, and a prediction every hour on the hour after that, for 24 predictions total.
-2. A report of 10-30 slides describing your approach, and insights you gained in making the predictions. Think of this as a “conference presentation” for your work.
-3. Optional: add at least one slide presenting any challenges faced during the bounty and/or recommendations you may have.
+1. A .csv file with ETH price predictions over a 12-hour period, with the first prediction presenting the price on Monday February 20, 2023 at 1:00am UTC and a prediction for every hour on the hour after that, for 12 predictions total.
+2. A report of 10-15 slides describing your approach, difficulties encountered and challenges faced while using the Ocean library and/or recommendations you may have. Think of this as a “conference presentation” for your work.
+3. Use the proper flow to submit your prediction. This includes storing the predictions onto Arweave, publishing the predictions on Ocean Market and sharing the datatoken to the judges for accessing such predictions.
 
-(1) must be submitted as its own dataset in Ocean. The specific instructions are in the README (below).
+For making and submitting predictions, the following README has the instructions: https://bit.ly/predicteth3-readme
 
-## Challenge Datasets & Data Feeds
-You can download the dataset from here: https://cexa.oceanprotocol.io/ohlc?exchange=binance&pair=ETH/USDT&period=1h   
-This data feed returns ETH/USDT ohlc history: {open, high, low, close) over time, drawn from Binance.
-It's over the most recent 500 hours: every hour, on the hour.
-
-You can access pre-provided data through this README: https://bit.ly/3LFc5XP
+The README links to some data feeds and AI modeling approaches that you may find useful.
