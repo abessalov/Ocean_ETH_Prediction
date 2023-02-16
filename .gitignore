@@ -1,17 +1,8 @@
 .ipynb_checkpoints
 __pycache__
 
-phase1
+_old/
+develop/
+data/
+
 phase3
-
-/phase1/_old/
-/phase1/develop/
-/phase1/data/
-
-/phase2/_old/
-/phase2/develop/
-/phase2/data/
-
-/phase3/_old/
-/phase3/develop/
-/phase3/data/
