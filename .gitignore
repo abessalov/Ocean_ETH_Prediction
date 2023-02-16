@@ -1,6 +1,6 @@
 phase3
-_old
-_develop
-data
-.ipynb_checkpoints/
-*__pycache__*
+.ipynb_checkpoints
+__pycache__
+_old/
+_develop/
+data/
