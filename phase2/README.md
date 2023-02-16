@@ -2,16 +2,11 @@
 
 ## Files description
 
-- data/ - directory with input data and output predictions.
 - 1_get_predictions.ipynb - code for the ETH predictions generation. 
 - 2_upload_file.py - code for publishing predictions online, to private url.
 - 3_share_to_ocean.py - code for sharing predictions, to judges via Polygon.
 - startup.py - initial script executed in every notebook when started.
 - REPORT.md - solution approach description.
-- develop/1_get_data.ipynb - script with getting hourly ETH/USD prices for the last 2 years.
-- develop/2_train_rnn.ipynb - script with training recurrent neural networks.
-- develop/models/ - directory with saved models in h5 format.
-- develop/pictures/ - directory with pictures.
 
 
 ## Challenge
