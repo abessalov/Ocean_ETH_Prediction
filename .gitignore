@@ -4,5 +4,4 @@ __pycache__
 _old/
 develop/
 data/
-
-phase3
+output/

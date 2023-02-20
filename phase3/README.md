@@ -1,12 +1,16 @@
-# Ocean Data Challenge :: ETH Prediction
+# Ocean Data Challenge :: ETH Prediction Round 3
 
 ## Files description
 
-- phase1 - folder with the Round 1 scripts
-- phase2 - folder with the Round 2 scripts
-- phase3 - folder with the Round 3 scripts
+- 1_get_predictions.ipynb - notebook for the ETH predictions generation. 
+- 2_uploading.ipynb - notebook for publishing predictions in the Arweave and send the asset to Ocean.
+- 3_check_predictions.ipynb - notebook with checking prediction results (executing 12 hours after)
+- helpers.py - utilities functions from Ocean: https://github.com/oceanprotocol/predict-eth/blob/main/predict_eth/helpers.py
+- startup.py - initial script executed in every notebook when started (libraries loading).
+- REPORT.md - solution approach description.
 
-## Last challenge
+
+## Challenge
 Submission deadline is Feb 19, 2023 at 23:59 UTC
 Contestants are requested to submit the following:
 1. A .csv file with ETH price predictions over a 12-hour period, with the first prediction presenting the price on Monday February 20, 2023 at 1:00am UTC and a prediction for every hour on the hour after that, for 12 predictions total.
