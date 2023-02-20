@@ -15,11 +15,11 @@ When working with training neural networks we need to eliminate trend and season
 
 Real and predicted values:
 
-![Screenshot](pictures/preprocess1.PNG)
+![Screenshot](pictures/preprocess1.png)
 
 Normalized differences:
 
-![Screenshot](pictures/preprocess2.PNG)
+![Screenshot](pictures/preprocess2.png)
 
 
 ## 3. Neural network training
@@ -29,11 +29,11 @@ Normalized differences:
 - We have focused on trainig simple neural networks consisting only from the Dense layers.
 - After some experiments we decided to use the simplest model due to their simplicity and rather good quality:
 
-![Screenshot](pictures/network.PNG)
+![Screenshot](pictures/network.png)
 
 - The learning curve of the best model looks good:
 
-![Screenshot](pictures/curve.PNG)
+![Screenshot](pictures/curve.png)
 
 - We could reduce Mean Absolute Error from 18.99 to 10.20 by using this simple neural network (Comparing with Prophet model predictions). 
 
