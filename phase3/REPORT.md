@@ -48,7 +48,7 @@ Normalized differences:
 ![Screenshot](pictures/preds.PNG)
 
 
-## 5. Results (todo)
+## 5. Results
 
 - Let's compare our predictions with the real values:
 
@@ -59,6 +59,6 @@ Normalized differences:
 ![Screenshot](pictures/results2.PNG)
 
 ## 6. The ideas for future work
-- To collect more data of ETH prices (5-10 years)
-- To train different Recurrent Neural Networks models and understand if they can significantly bring addition quality
-- To train multioutput Random Forests or Boosting models on the preprocessed dataset
+- To collect more data of ETH prices (5-10 years).
+- To train different Recurrent Neural Networks models and understand if they can significantly bring addition quality.
+- To train multioutput Random Forests or Boosting models on the preprocessed dataset.
