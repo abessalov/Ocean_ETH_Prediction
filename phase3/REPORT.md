@@ -52,9 +52,11 @@ Normalized differences:
 
 - Let's compare our predictions with the real values:
 
+![Screenshot](pictures/results1.PNG)
 
 - The evaluation metrics of the final predictions:
 
+![Screenshot](pictures/results2.PNG)
 
 ## 6. The ideas for future work
 - To collect more data of ETH prices (5-10 years)
